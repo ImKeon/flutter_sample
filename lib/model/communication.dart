@@ -14,3 +14,4 @@ class Communication {
 
   Map<String, dynamic> toJson() => _$CommunicationToJson(this);
 }
+
