@@ -8,10 +8,9 @@ class NavigationBar extends StatefulWidget {
 }
 
 class _NavigationBarState extends State<NavigationBar> {
-
   int _currentIndex = 0;
 
-  final List<Widget> _children = [Counter(), Communication()];
+  final List<Widget> _children = [Counter(), CommunicationPage()];
 
   void _onTap(int index) {
     setState(() {
@@ -44,4 +43,5 @@ class _NavigationBarState extends State<NavigationBar> {
       ),
     );
   }
+
 }
